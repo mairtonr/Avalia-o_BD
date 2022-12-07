@@ -1,4 +1,4 @@
-# Trabalho de banco de dados SQL
+# Avaliação pratica de banco de dados SQL
 
 >## Criação das tabelas
 
@@ -80,7 +80,7 @@ values(5, 3)
 ### 1) Faça um comando SQL para matricular o aluno “Pedro César” no curso de Informática. Os dados devem ser inseridos na tabela TB_MATRÍCULA.
 
 <div align="center">
-  <img src="assets/Q1.png">
+  <img src="./assets/assets/Q1.png">
 </div>
 
 ```bash 
@@ -94,7 +94,7 @@ values(4,4)
 ### 2) Escreva um comando SQL que retorne os nomes dos alunos e do(s) cursos em que estão matriculados. Os dados deverão estar ordenados pelo nome do curso.
 
 <div align="center">
-  <img src="assets/Q2.png">
+  <img src="./assets/assets/Q2.png">
 </div>
 
 ```bash 
@@ -107,7 +107,7 @@ INNER JOIN  tb_curso ON tb_curso.cod_curso = tb_matricula.cod_curso
 ### 3) Crie um comando SQL que retorne o e-mail de todos os alunos maiores de idade.
 
 <div align="center">
-  <img src="assets/Q3.png">
+  <img src="./assets/assets/Q3.png">
 </div>
 
 ```bash 
@@ -117,7 +117,7 @@ select email from tb_aluno where 2022 - ano_nasc >= 18
 ### 4) Desenvolva um comando SQL que mostre o total de alunos.
 
 <div align="center">
-  <img src="assets/Q4.png">
+  <img src="./assets/assets/Q4.png">
 </div>
 
 ```bash
@@ -138,7 +138,7 @@ INNER JOIN tb_aluno ON tb_aluno.cod_aluno = tb_cursocod_curso
 ### 6) Desenvolva um comando SQL que retorne o nome de todos os alunos maiores que 18 anos.
 
 <div align="center">
-  <img src="assets/Q6.png">
+  <img src="./assets/assets/Q6.png">
 </div>
 
 ```bash
@@ -148,7 +148,7 @@ select nome_aluno from tb_aluno where 2022 - ano_nasc >= 18
 ### 7) Faça um comando SQL que retorne o nome de todas as mulheres.
 
 <div align="center">
-  <img src="assets/Q7.png">
+  <img src="./assets/assets/Q7.png">
 </div>
 
 ```bash
@@ -158,7 +158,7 @@ select nome_aluno, sexo from tb_aluno where sexo = 'F'
 ### 8) Faça um comando SQL que retorne o nome de todas as mulheres matriculadas no curso de Medicina.
 
 <div align="center">
-  <img src="assets/Q8.png">
+  <img src="./assets/assets/Q8.png">
 </div>
 
 ```bash
@@ -170,7 +170,7 @@ WHERE nome_curso = 'Medicina' and sexo = 'F'
 ### 9) Faça um comando SQL que retorne os nomes dos cursos ordenados por ordem alfabética.
 
 <div align="center">
-  <img src="assets/Q9.png">
+  <img src="./assets/assets/Q9.png">
 </div>
 
 ```bash
@@ -185,7 +185,7 @@ SELECT nome_curso from tb_curso order by nome_curso asc
 <br>
 
 <div align="center">
-  <img src="assets/Q10.png">
+  <img src="./assets/assets/Q10.png">
 </div>
 
 ```bash

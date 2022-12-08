@@ -99,9 +99,9 @@ values(4,4)
 
 ```bash 
 # Code
-select tb_aluno.nome_aluno, tb_curso.nome_curso FROM tb_aluno
-INNER JOIN tb_curso ON tb_aluno.cod_aluno = tb_matricula.cod_aluno
-INNER JOIN  tb_curso ON tb_curso.cod_curso = tb_matricula.cod_curso
+select tb_aluno.nome_aluno, tb_curso.nome_curso from tb_aluno
+inner join tb_curso on tb_aluno.cod_aluno = tb_matricula.cod_aluno
+inner join  tb_curso on tb_curso.cod_curso = tb_matricula.cod_curso
 ```
 - - -
 ### 3) Crie um comando SQL que retorne o e-mail de todos os alunos maiores de idade.
@@ -124,7 +124,7 @@ select email from tb_aluno where 2022 - ano_nasc >= 18
 select count (cod_aluno) from tb_aluno
 ```
 - - -
-### 5) Escreva um comando SQL para listar o total de alunos matriculador em cada curso.
+### 5) Escreva um comando SQL para listar o total de alunos matriculados em cada curso.
 
 <div align="center">
   <img src="">
@@ -161,9 +161,9 @@ select nome_aluno, sexo from tb_aluno where sexo = 'F'
 </div>
 
 ```bash
-SELECT tb_aluno.nome_aluno, tb_curso.nome_curso from tb_aluno
-INNER JOIN tb_curso ON tb_aluno.cod_aluno = tb_curso.cod_curso
-WHERE nome_curso = 'Medicina' and sexo = 'F'
+select tb_aluno.nome_aluno, tb_curso.nome_curso from tb_aluno
+inner join tb_curso ON tb_aluno.cod_aluno = tb_curso.cod_curso
+where nome_curso = 'Medicina' and sexo = 'F'
 ```
 - - -
 ### 9) Faça um comando SQL que retorne os nomes dos cursos ordenados por ordem alfabética.
@@ -173,24 +173,21 @@ WHERE nome_curso = 'Medicina' and sexo = 'F'
 </div>
 
 ```bash
-SELECT nome_curso from tb_curso order by nome_curso asc
+select nome_curso from tb_curso order by nome_curso asc
 ```
 - - -
 ### 10) Crie o enunciado de uma consulta SQL que utilize “junção” (com resposta).
-### Enunciado
-<br>
-
+### Enunciado:
 #### Mostre o email de todos os alunos que estão no curso de medicina
-<br>
 
 <div align="center">
   <img src="./assets/assets/Q10.png">
 </div>
 
 ```bash
-SELECT tb_aluno.email, tb_curso.nome_curso from tb_aluno 
-INNER JOIN tb_curso ON tb_aluno.cod_aluno = tb_curso.cod_curso
-WHERE nome_curso = 'Medicina'
+select tb_aluno.email, tb_curso.nome_curso from tb_aluno 
+inner join tb_curso ON tb_aluno.cod_aluno = tb_curso.cod_curso
+where nome_curso = 'Medicina'
 ```
 - - -
 

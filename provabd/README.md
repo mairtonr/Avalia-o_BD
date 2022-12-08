@@ -131,8 +131,7 @@ select count (cod_aluno) from tb_aluno
 </div>
 
 ```bash
-SELECT tb_curso.nome_curso, cod_curso + cod_aluno AS numero_aluno FROM tb_curso 
-INNER JOIN tb_aluno ON tb_aluno.cod_aluno = tb_cursocod_curso
+
 ```
 - - -
 ### 6) Desenvolva um comando SQL que retorne o nome de todos os alunos maiores que 18 anos.

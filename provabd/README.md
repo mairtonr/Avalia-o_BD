@@ -196,13 +196,16 @@ WHERE nome_curso = 'Medicina'
 
 ## Respostas da questões teóricas
 ### 1) Defina: SQL.
-##### R: Standard Query Language(Linguagem de Consulta Estruturada).A linguagem de pesquisa de banco de dados relacionais.
+##### R: 
+Standard Query Language(Linguagem de Consulta Estruturada).A linguagem de pesquisa de banco de dados relacionais.
 - - -
 ### 2) Faça um relacionamento cronológico sobre SQL.
-##### R: A linguagem SQL foi desenvolvida pela IBM no final dos anos 70 como a linguagem usada em seu protótipo de banco de dados relacional chamado System R. O primeiro banco de dados comercial utilizando a linguagem SQL foi lançado pela Oracle em 1979. No início dos anos 1980, o American National Standards Institute (ANSI) começou a trabalhar no desenvolvimento de uma versão padronizada do SQL, que foi publicada em 1986 e 1987. Posteriormente, o SQL sofreu importantes melhorias com outras modificações e adições. Como é padronizado pela ANSI para linguagens como C, C++ e Pascal, alguns fabricantes de bancos de dados consideram seguro adotá-lo como linguagem padrão para seus bancos de dados. Outro fator que pode ser mais importante que o anterior e levar à adoção do padrão SQL por diversos bancos de dados é que a linguagem não é procedural. Bancos de dados como Access, SQL Server, Oracle, DB2 e Paradox usam SQL. Embora esses bancos de dados usem a maior parte do padrão ANSI SQL, os programadores encontrarão algumas alterações e adições ao padrão desses bancos de dados. Uma das grandes vantagens do SQL é que ele é a língua franca dos bancos de dados profissionais. Grande parte dessa linguagem é padronizada. Obviamente, dependendo do banco de dados utilizado (MSSQL Server, Oracle, DB2, etc.). 
+##### R: 
+A linguagem SQL foi desenvolvida pela IBM no final dos anos 70 como a linguagem usada em seu protótipo de banco de dados relacional chamado System R. O primeiro banco de dados comercial utilizando a linguagem SQL foi lançado pela Oracle em 1979. No início dos anos 1980, o American National Standards Institute (ANSI) começou a trabalhar no desenvolvimento de uma versão padronizada do SQL, que foi publicada em 1986 e 1987. Posteriormente, o SQL sofreu importantes melhorias com outras modificações e adições. Como é padronizado pela ANSI para linguagens como C, C++ e Pascal, alguns fabricantes de bancos de dados consideram seguro adotá-lo como linguagem padrão para seus bancos de dados. Outro fator que pode ser mais importante que o anterior e levar à adoção do padrão SQL por diversos bancos de dados é que a linguagem não é procedural. Bancos de dados como Access, SQL Server, Oracle, DB2 e Paradox usam SQL. Embora esses bancos de dados usem a maior parte do padrão ANSI SQL, os programadores encontrarão algumas alterações e adições ao padrão desses bancos de dados. Uma das grandes vantagens do SQL é que ele é a língua franca dos bancos de dados profissionais. Grande parte dessa linguagem é padronizada. Obviamente, dependendo do banco de dados utilizado (MSSQL Server, Oracle, DB2, etc.). 
 - - -
 ### 3) Liste as principais caracteríticas de SQL.
-##### R: Algumas das principais características do SQL são: sintaxe de comandos o mais próximo possível da linguagem da língua inglesa; Trabalha com conjuntos de registros, e não com um registro por vez; Utilizada por utilizadores "normais" tanto também pelos Administradores do Banco de Dados. Seus comandos permitem: Fazer consultas aos dados; Criar, ler, atualizar e deletar os dados em um banco de dados; Garantir a consistência de dados
+##### R: 
+Algumas das principais características do SQL são: sintaxe de comandos o mais próximo possível da linguagem da língua inglesa; Trabalha com conjuntos de registros, e não com um registro por vez; Utilizada por utilizadores "normais" tanto também pelos Administradores do Banco de Dados. Seus comandos permitem: Fazer consultas aos dados; Criar, ler, atualizar e deletar os dados em um banco de dados; Garantir a consistência de dados
 
 - - -
 ### 4) Descreva a sintaxe do comando SQL: SELECT. Quais cláusulas são obrigatórias e quais são opcionais?
@@ -214,6 +217,7 @@ WHERE nome_curso = 'Medicina'
 ##### FROM: Nesta Cláusula informamos a fonte das informações, podendo ser apenas uma ou várias. Também é obrigatória e juntamente com a cláusula SELECT formam a base de qualquer consulta SQL
 - - -
 ### 5) Qual a importância da linguagem SQL no desenvolvimento de softwares atualmente? Justifique.
-##### R: A importância do SQL no software reside principalmente no armazenamento de dados. Com o SQL é possível criar um banco de dados para armazenar informações, por exemplo, sobre uma empresa. 
+##### R: 
+##### A importância do SQL no software reside principalmente no armazenamento de dados. Com o SQL é possível criar um banco de dados para armazenar informações, por exemplo, sobre uma empresa. 
 ##### Ao usar o SQL como banco de dados, todas as atividades podem ser executadas com mais eficiência. O usuário, portanto, encontra todas as informações necessárias durante a pesquisa. Investir em bancos de dados pode beneficiar as empresas. Ou seja, afeta não só a produtividade da equipe, mas também o alinhamento entre as equipes e os resultados alcançados.  
 ##### Quem quer trabalhar com desenvolvimento de software deve aprender SQL porque a maioria dos sistemas de informação interage com bancos de dados e é a linguagem universal para fazer tudo em bancos de dados relacionais.
